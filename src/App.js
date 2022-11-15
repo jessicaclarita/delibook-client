@@ -11,9 +11,10 @@ import FavoritesPage from './pages/Favorites/favorites';
 
 function App() {
   const {user, setUser} = useContext(MyContext);
+
   useEffect(() => {
   const autoLogin = async() => {
-  const response = await fetch('http://localhost:5000/auto-login', {
+  const response = await fetch(`${window.env.API_URL}/auto-login`, {
       method:'POST',
       headers: {
         'Content-Type': 'application/json',

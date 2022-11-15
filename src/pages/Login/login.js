@@ -12,6 +12,7 @@ function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const {setUser} = useContext(MyContext);
+  console.log(window.env.API_URL)
   
   // function to login user when button is clicked
   function handleLogin(e){
@@ -21,7 +22,7 @@ function LoginPage() {
     }
 
     axios
-    .post("http://localhost:5000/login", {email, password})
+    .post(`${window.env.API_URL}/login`, {email, password})
     .then(({data}) => {
       localStorage.setItem("token", data.token);
       setUser(data);

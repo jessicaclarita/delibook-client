@@ -21,7 +21,7 @@ function SignUpPage() {
         }
 
         axios
-        .post("http://localhost:5000/signup", {email, password})
+        .post(`${window.env.API_URL}/signup`, {email, password})
         .then(({data}) => {
             setUser(data);
             localStorage.setItem("token", data.token);
