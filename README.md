@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## API used
 
-The MealDB: https://www.themealdb.com/api.php
+The MealDB: https://www.themealdb.com/api.php \
 Spoonacular: https://spoonacular.com/food-api/docs
 
 ## Available Scripts
