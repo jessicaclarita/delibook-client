@@ -1,6 +1,6 @@
 # 304CEM Web API Development Project (Frontend)
 
-The backend side is available at [delibook-server](https://github.com/jessicaclarita/delibook-server). 
+The backend side is available at [delibook-server](https://github.com/jessicaclarita/delibook-server). \
 Type `npm start` in the project directory's terminal to run this project.
 
 ## APIs Used
