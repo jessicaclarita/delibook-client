@@ -1,7 +1,12 @@
 # 304CEM Web API Development Project (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
-The backend side is available at [delibook-server](https://github.com/jessicaclarita/delibook-server).
+The backend side is available at [delibook-server](https://github.com/jessicaclarita/delibook-server). \
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## API used
+
+The MealDB: https://www.themealdb.com/api.php
+Spoonacular: https://spoonacular.com/food-api/docs
 
 ## Available Scripts
 
