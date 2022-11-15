@@ -8,7 +8,7 @@ import './home.css'
 function HomePage() {
   const {meals, setMeals} = useContext(MyContext);
   const [trivia, setTrivia] = useState("");
-  const apiKey = 'eaea0dae677149da94e80cc7314e627'; // eaea0dae677149da94e80cc7314e6276
+  const apiKey = 'eaea0dae677149da94e80cc7314e6276'; // eaea0dae677149da94e80cc7314e6276
 
   // calling the Spoonacular API to display food trivia
   useEffect(() => {

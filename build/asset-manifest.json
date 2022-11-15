@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e644d06.css",
+    "main.js": "/static/js/main.b06ffbc1.js",
+    "static/js/787.2baa0f2c.chunk.js": "/static/js/787.2baa0f2c.chunk.js",
+    "static/media/jumbotron.jpg": "/static/media/jumbotron.733fb395e471c892d71b.jpg",
+    "index.html": "/index.html",
+    "main.9e644d06.css.map": "/static/css/main.9e644d06.css.map",
+    "main.b06ffbc1.js.map": "/static/js/main.b06ffbc1.js.map",
+    "787.2baa0f2c.chunk.js.map": "/static/js/787.2baa0f2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e644d06.css",
+    "static/js/main.b06ffbc1.js"
+  ]
+}
