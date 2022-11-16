@@ -12,7 +12,6 @@ function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const {setUser} = useContext(MyContext);
-  console.log(window.env.API_URL)
   
   // function to login user when button is clicked
   function handleLogin(e){
